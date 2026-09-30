@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#app-container.loading {
+  opacity: 0.5;
+  cursor: progress;
+}
+
+#app-container {
+  cursor: default; 
+  opacity: 1.0;
+  pointer-events: auto;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 1rem;
+}

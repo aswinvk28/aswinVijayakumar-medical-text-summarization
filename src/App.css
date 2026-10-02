@@ -17,8 +17,61 @@
   pointer-events: auto;
 }
 
-.caption {
-  font-size: 0.9rem;
-  color: #666;
-  margin-top: 1rem;
+.App-sidebar {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+.examples-content {
+  height: 300px; 
+  overflow-y: scroll;
+  background-color: #dcf9fa;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tech-stack {
+  background-color: #dcf9fa;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tech-stack .tech-stack-item {
+  background-color: #f8f9fa;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.library-from {
+  font-size: 0.6rem;
+  color: #888;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.rouge-score {
+  background-color: #dcf9fa;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rouge-score .rouge-score-item {
+  background-color: #f8f9fa;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
 }
